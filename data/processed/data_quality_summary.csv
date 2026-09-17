@@ -1,0 +1,222 @@
+scope,plan_fiscal_year,metric,value,numerator,denominator,sample_size,definition
+all_hospitals,2024/25,workplan_rows,1688,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,progress_rows,1102,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,total_cycles,819,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,valid_cycles,816,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,workplan_cycles,817,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,progress_cycles,480,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,matched_cycles,475,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,candidate_matched_cycles,478,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,unmatched_cycles,341,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,workplan_only_cycles,339,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,progress_only_cycles,2,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,ambiguous_matches,3,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,cycles_needing_identity_review,3,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,exact_matches,475,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,normalized_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,fuzzy_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,outcome_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,2024/25,cycles_with_insufficient_data,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,2024/25,target_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,2024/25,analysis_eligible_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,cycles_containing_multiple_interventions,452,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,cycles_with_implementation_conflicts,3,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,cycles_with_mixed_implementation,86,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,interventions,1689,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,interventions_classified_other,574,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,interventions_with_implementation_conflicts,4,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,workplan_rows_in_matched_cycles,1041,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,progress_rows_in_matched_cycles,1090,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,exact_idea_matched_workplan_rows,1049,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2024/25,workplan_cycle_match_rate_pct,58.13953488372093,475,817,817,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2024/25,progress_cycle_match_rate_pct,98.95833333333333,475,480,480,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2024/25,workplan_row_cycle_match_rate_pct,61.670616113744074,1041,1688,1688,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2024/25,exact_idea_workplan_row_coverage_pct,62.144549763033176,1049,1688,1688,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2024/25,other_pct,33.9846062759029,574,1689,1689,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2025/26,workplan_rows,1742,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,progress_rows,1241,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,total_cycles,850,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,valid_cycles,849,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,workplan_cycles,849,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,progress_cycles,574,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,matched_cycles,572,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,candidate_matched_cycles,573,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,unmatched_cycles,277,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,workplan_only_cycles,276,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,progress_only_cycles,1,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,ambiguous_matches,1,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,cycles_needing_identity_review,1,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,exact_matches,572,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,normalized_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,fuzzy_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,outcome_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,2025/26,cycles_with_insufficient_data,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,2025/26,target_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,2025/26,analysis_eligible_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,cycles_containing_multiple_interventions,461,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,cycles_with_implementation_conflicts,3,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,cycles_with_mixed_implementation,123,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,interventions,1739,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,interventions_classified_other,597,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,interventions_with_implementation_conflicts,3,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,workplan_rows_in_matched_cycles,1193,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,progress_rows_in_matched_cycles,1234,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,exact_idea_matched_workplan_rows,1194,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,2025/26,workplan_cycle_match_rate_pct,67.37338044758539,572,849,849,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2025/26,progress_cycle_match_rate_pct,99.65156794425087,572,574,574,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2025/26,workplan_row_cycle_match_rate_pct,68.48450057405282,1193,1742,1742,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2025/26,exact_idea_workplan_row_coverage_pct,68.5419058553387,1194,1742,1742,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,2025/26,other_pct,34.330074755606674,597,1739,1739,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,all_historical,workplan_rows,3430,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,progress_rows,2343,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,total_cycles,1669,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,valid_cycles,1665,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,workplan_cycles,1666,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,progress_cycles,1054,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,matched_cycles,1047,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,candidate_matched_cycles,1051,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,unmatched_cycles,618,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,workplan_only_cycles,615,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,progress_only_cycles,3,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,ambiguous_matches,4,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,cycles_needing_identity_review,4,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,exact_matches,1047,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,normalized_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,fuzzy_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,outcome_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,all_historical,cycles_with_insufficient_data,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,all_historical,target_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+all_hospitals,all_historical,analysis_eligible_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,cycles_containing_multiple_interventions,913,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,cycles_with_implementation_conflicts,6,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,cycles_with_mixed_implementation,209,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,interventions,3428,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,interventions_classified_other,1171,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,interventions_with_implementation_conflicts,7,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,workplan_rows_in_matched_cycles,2234,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,progress_rows_in_matched_cycles,2324,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,exact_idea_matched_workplan_rows,2243,,,,Included source records; test exclusions applied; coverage diagnostic
+all_hospitals,all_historical,workplan_cycle_match_rate_pct,62.84513805522209,1047,1666,1666,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,all_historical,progress_cycle_match_rate_pct,99.3358633776091,1047,1054,1054,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,all_historical,workplan_row_cycle_match_rate_pct,65.13119533527697,2234,3430,3430,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,all_historical,exact_idea_workplan_row_coverage_pct,65.3935860058309,2243,3430,3430,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+all_hospitals,all_historical,other_pct,34.15985997666278,1171,3428,3428,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2024/25,workplan_rows,118,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,progress_rows,9,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,total_cycles,66,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,valid_cycles,66,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,workplan_cycles,66,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,progress_cycles,5,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,matched_cycles,5,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,candidate_matched_cycles,5,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,unmatched_cycles,61,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,workplan_only_cycles,61,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,progress_only_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,ambiguous_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,cycles_needing_identity_review,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,exact_matches,5,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,normalized_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,fuzzy_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,outcome_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,2024/25,cycles_with_insufficient_data,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,2024/25,target_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,2024/25,analysis_eligible_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,cycles_containing_multiple_interventions,29,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,cycles_with_implementation_conflicts,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,cycles_with_mixed_implementation,1,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,interventions,118,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,interventions_classified_other,36,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,interventions_with_implementation_conflicts,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,workplan_rows_in_matched_cycles,9,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,progress_rows_in_matched_cycles,9,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,exact_idea_matched_workplan_rows,9,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2024/25,workplan_cycle_match_rate_pct,7.575757575757576,5,66,66,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2024/25,progress_cycle_match_rate_pct,100.0,5,5,5,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2024/25,workplan_row_cycle_match_rate_pct,7.627118644067797,9,118,118,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2024/25,exact_idea_workplan_row_coverage_pct,7.627118644067797,9,118,118,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2024/25,other_pct,30.508474576271187,36,118,118,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2025/26,workplan_rows,371,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,progress_rows,225,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,total_cycles,206,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,valid_cycles,206,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,workplan_cycles,206,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,progress_cycles,130,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,matched_cycles,130,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,candidate_matched_cycles,130,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,unmatched_cycles,76,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,workplan_only_cycles,76,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,progress_only_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,ambiguous_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,cycles_needing_identity_review,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,exact_matches,130,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,normalized_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,fuzzy_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,outcome_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,2025/26,cycles_with_insufficient_data,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,2025/26,target_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,2025/26,analysis_eligible_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,cycles_containing_multiple_interventions,88,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,cycles_with_implementation_conflicts,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,cycles_with_mixed_implementation,18,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,interventions,370,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,interventions_classified_other,111,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,interventions_with_implementation_conflicts,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,workplan_rows_in_matched_cycles,218,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,progress_rows_in_matched_cycles,225,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,exact_idea_matched_workplan_rows,218,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,2025/26,workplan_cycle_match_rate_pct,63.10679611650485,130,206,206,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2025/26,progress_cycle_match_rate_pct,100.0,130,130,130,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2025/26,workplan_row_cycle_match_rate_pct,58.76010781671159,218,371,371,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2025/26,exact_idea_workplan_row_coverage_pct,58.76010781671159,218,371,371,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,2025/26,other_pct,30.0,111,370,370,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,all_historical,workplan_rows,489,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,progress_rows,234,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,total_cycles,272,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,valid_cycles,272,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,workplan_cycles,272,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,progress_cycles,135,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,matched_cycles,135,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,candidate_matched_cycles,135,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,unmatched_cycles,137,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,workplan_only_cycles,137,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,progress_only_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,ambiguous_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,cycles_needing_identity_review,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,exact_matches,135,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,normalized_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,fuzzy_matches,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,outcome_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,all_historical,cycles_with_insufficient_data,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,all_historical,target_calculable_cycles,0,0,0,0,Primary ED analysis-eligible cycles only
+ed_access_flow,all_historical,analysis_eligible_cycles,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,cycles_containing_multiple_interventions,117,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,cycles_with_implementation_conflicts,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,cycles_with_mixed_implementation,19,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,interventions,488,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,interventions_classified_other,147,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,interventions_with_implementation_conflicts,0,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,workplan_rows_in_matched_cycles,227,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,progress_rows_in_matched_cycles,234,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,exact_idea_matched_workplan_rows,227,,,,Included source records; test exclusions applied; coverage diagnostic
+ed_access_flow,all_historical,workplan_cycle_match_rate_pct,49.63235294117647,135,272,272,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,all_historical,progress_cycle_match_rate_pct,100.0,135,135,135,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,all_historical,workplan_row_cycle_match_rate_pct,46.421267893660534,227,489,489,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,all_historical,exact_idea_workplan_row_coverage_pct,46.421267893660534,227,489,489,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ed_access_flow,all_historical,other_pct,30.12295081967213,147,488,488,Accepted matches exclude ambiguity; exact idea coverage is a candidate diagnostic
+ProgressReportIndicatorReport 2025-26.csv,,raw_rows,1102,,,,Before analytical deduplication
+ProgressReportIndicatorReport 2025-26.csv,,excluded_rows,0,,,,Before analytical deduplication
+ProgressReportIndicatorReport 2025-26.csv,,exact_duplicate_excess,5,,,,Before analytical deduplication
+ProgressReportIndicatorReport 2026-27.csv,,raw_rows,1246,,,,Before analytical deduplication
+ProgressReportIndicatorReport 2026-27.csv,,excluded_rows,5,,,,Before analytical deduplication
+ProgressReportIndicatorReport 2026-27.csv,,exact_duplicate_excess,4,,,,Before analytical deduplication
+WorkplanIndicatorReport 2024-25.csv,,raw_rows,1688,,,,Before analytical deduplication
+WorkplanIndicatorReport 2024-25.csv,,excluded_rows,0,,,,Before analytical deduplication
+WorkplanIndicatorReport 2024-25.csv,,exact_duplicate_excess,9,,,,Before analytical deduplication
+WorkplanIndicatorReport 2025-26.csv,,raw_rows,1742,,,,Before analytical deduplication
+WorkplanIndicatorReport 2025-26.csv,,excluded_rows,0,,,,Before analytical deduplication
+WorkplanIndicatorReport 2025-26.csv,,exact_duplicate_excess,5,,,,Before analytical deduplication
+WorkplanIndicatorReport 2026-27.csv,,raw_rows,1804,,,,Before analytical deduplication
+WorkplanIndicatorReport 2026-27.csv,,excluded_rows,0,,,,Before analytical deduplication
+WorkplanIndicatorReport 2026-27.csv,,exact_duplicate_excess,18,,,,Before analytical deduplication
+all_hospitals,2026/27,current_ideas,1739,,,,Current plans; no observed outcomes
+all_hospitals,2026/27,current_ideas_other,627,,,,Current plans; no observed outcomes

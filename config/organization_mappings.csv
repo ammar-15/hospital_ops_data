@@ -1,0 +1,137 @@
+source_name,organization_id,normalized_name,mapping_status,basis
+Alexandra Hospital,org_d33ca5af70454463,Alexandra Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Alexandra Marine and General Hospital,org_ca678c161dd84b8a,Alexandra Marine and General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Anson General Hospital,org_436e0d774e407c38,Anson General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Arnprior Regional Health,org_a7c34c2ab796efb6,Arnprior Regional Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Atikokan General Hospital,org_1919e05f77f4d80e,Atikokan General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Baycrest Hospital (North York),org_3c1d3536d63206c4,Baycrest Hospital (North York),accepted,Exact source identity; trim display whitespace only; no succession inferred
+Bingham Memorial Hospital,org_ab1ce44ff4842284,Bingham Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Blanche River Health,org_6450c9c921968c16,Blanche River Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Bluewater Health,org_ffea216599e5e6b1,Bluewater Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Brant Community Healthcare System,org_3cd6a4bd2a94177c,Brant Community Healthcare System,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Brightshores Health System ,org_45bd58add12fc7ed,Brightshores Health System,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Brockville General Hospital,org_b7a54963ba1fc573,Brockville General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Bruyère Health,org_7aecc97c1caef653,Bruyère Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Cambridge Memorial Hospital,org_ffe1250ca721fe98,Cambridge Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Campbellford Memorial Hospital,org_1ccfa630e73e76b0,Campbellford Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Casey House,org_1d175b61e7adc954,Casey House,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Centre for Addiction and Mental Health,org_d994dbf05a4b56ae,Centre for Addiction and Mental Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Chatham-Kent Health Alliance,org_dc48df72ed816670,Chatham-Kent Health Alliance,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Children's Hospital of Eastern Ontario,org_792f3d6269c0b645,Children's Hospital of Eastern Ontario,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Collingwood General and Marine Hospital,org_ca930a71519bf901,Collingwood General and Marine Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Cornwall Community Hospital,org_584e957624d8de40,Cornwall Community Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Deep River And District Hospital,org_16b8f88dd0e87ca9,Deep River And District Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Dryden Regional Health Centre,org_5817162f8fc6018f,Dryden Regional Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Erie Shores Healthcare,org_4ed5875b842f3faa,Erie Shores Healthcare,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Espanola General Hospital,org_4d6f1f5a8005dbc5,Espanola General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Georgian Bay General Hospital,org_f2ecb8bbfe8e4cbb,Georgian Bay General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Geraldton District Hospital,org_3b49086244c14560,Geraldton District Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Glengarry Memorial Hospital,org_f05da09420b0d727,Glengarry Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Grand River Hospital Corporation,org_44e6ac7018e56922,Grand River Hospital Corporation,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Groves Memorial Community Hospital,org_745a3756d1f32bf3,Groves Memorial Community Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Guelph General Hospital,org_7572022c35854d28,Guelph General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Haldimand War Memorial Hospital,org_c0228dbc8d2ee4c0,Haldimand War Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Haliburton Highlands Health Services Corporation,org_a61294cfc736d43f,Haliburton Highlands Health Services Corporation,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Halton Healthcare Services Corporation,org_8cdff0e3f84b8a72,Halton Healthcare Services Corporation,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hamilton Health Sciences Corporation,org_21fdc7b5cfbc878e,Hamilton Health Sciences Corporation,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hanover And District Hospital,org_803e93a9e545177d,Hanover And District Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hawkesbury And District General Hospital,org_d12131521737652f,Hawkesbury And District General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Headwaters Health Care Centre,org_30500a37c4de535c,Headwaters Health Care Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Health Sciences North,org_ce816d6f53154afe,Health Sciences North,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Holland Bloorview Kids Rehab Hospital,org_a58dfb2b83e51233,Holland Bloorview Kids Rehab Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hopital Montfort,org_6f2e0dca3e673d9a,Hopital Montfort,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hornepayne Community Hospital,org_0c66e22f97d8ff4e,Hornepayne Community Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hospital A (TEST) (TEST),org_92b7592d3c26beb2,Hospital A (TEST) (TEST),accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hospital for Sick Children (The),org_09cdc83f1003ae8a,Hospital for Sick Children (The),accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hospital xyz1 (TEST),org_f5401defd46163e3,Hospital xyz1 (TEST),accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hotel Dieu Hospital - Cornwall ,org_df2d768da586dfa6,Hotel Dieu Hospital - Cornwall,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hotel Dieu Shaver Health and Rehabilitation Centre,org_58dc52d947049799,Hotel Dieu Shaver Health and Rehabilitation Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hotel-Dieu Grace Healthcare,org_c7abaecc1f31e5af,Hotel-Dieu Grace Healthcare,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Humber River Health,org_0544e3760b9436c3,Humber River Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Huron Perth Healthcare Alliance,org_0de115e8e8515922,Huron Perth Healthcare Alliance,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Hôpital de Mattawa Hospital,org_9812848367fde220,Hôpital de Mattawa Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Joseph Brant Hospital,org_4d284ff566134ecb,Joseph Brant Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Kemptville District Hospital,org_444ddfb72c84241f,Kemptville District Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Kingston Health Sciences Centre,org_4425435f2eb3ed62,Kingston Health Sciences Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Lady Dunn Health Centre,org_beadb4ecb792b8db,Lady Dunn Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Lake-of-the-Woods District Hospital,org_fe48b4397a2c4a68,Lake-of-the-Woods District Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Lakeridge Health,org_518afa432e1df63b,Lakeridge Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Lennox and Addington County Gen Hospital,org_004976c32c109a2a,Lennox and Addington County Gen Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Listowel Wingham Hospitals Alliance,org_9254e669563b5d91,Listowel Wingham Hospitals Alliance,accepted,Exact source identity; trim display whitespace only; no succession inferred
+London Health Sciences Centre,org_88d1777726b4c9e7,London Health Sciences Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Mackenzie Health,org_f8eac9c57136e46f,Mackenzie Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Manitoulin Health Centre,org_0d7d2a95ec582c10,Manitoulin Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Middlesex Hospital Alliance,org_08b519baf6f3ee0b,Middlesex Hospital Alliance,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Mississippi River Health Alliance,org_640ae797d08451b6,Mississippi River Health Alliance,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Muskoka Algonquin Healthcare,org_3cb3343c153535ee,Muskoka Algonquin Healthcare,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Niagara Health System,org_d571ce5754e958e6,Niagara Health System,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Nipigon District Memorial Hospital,org_b110dda3fe66b0c2,Nipigon District Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Norfolk General Hospital,org_16ba29db4636ea63,Norfolk General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+North Bay Regional Health Centre,org_84c71dd6340c474d,North Bay Regional Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+North Shore Health Network,org_87dc3b21fcebf367,North Shore Health Network,accepted,Exact source identity; trim display whitespace only; no succession inferred
+North Wellington Health Care,org_d8e51990ad1a5b38,North Wellington Health Care,accepted,Exact source identity; trim display whitespace only; no succession inferred
+North York General Hospital,org_8da317d44c92d2eb,North York General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+North of Superior Healthcare Group,org_6cda4d4e0d667f32,North of Superior Healthcare Group,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Northumberland Hills Hospital,org_3d2e95a21794e4d1,Northumberland Hills Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Notre Dame Hospital (Hearst),org_86b1ac010d89c0ae,Notre Dame Hospital (Hearst),accepted,Exact source identity; trim display whitespace only; no succession inferred
+Oak Valley Health,org_3e299976322b1000,Oak Valley Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Ontario Shores Centre For Mental Health Sciences,org_f0b636d778c0ae76,Ontario Shores Centre For Mental Health Sciences,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Orillia Soldiers' Memorial Hospital,org_d4f8b551b6ae70ef,Orillia Soldiers' Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Pembroke Regional Hospital Inc.,org_d891658d330cfc19,Pembroke Regional Hospital Inc.,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Perth And Smiths Falls District Hospital,org_2fb65ae50f1d4b05,Perth And Smiths Falls District Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Peterborough Regional Health Centre,org_97bcc6168a4ac31f,Peterborough Regional Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Providence Care Centre,org_ff8b16243f662b9b,Providence Care Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Queensway-Carleton Hospital,org_67a7ed6a42947362,Queensway-Carleton Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Quinte Health,org_76f35dcfe4fe3961,Quinte Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Renfrew Victoria Hospital,org_3798e781b6e5310f,Renfrew Victoria Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Riverside Health Care Facilities Inc.,org_338c8cbe14971f0f,Riverside Health Care Facilities Inc.,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Ross Memorial Hospital,org_2266095a27574986,Ross Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Royal Ottawa Health Care Group,org_c969e1bf44bb3b09,Royal Ottawa Health Care Group,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Royal Victoria Regional Health Centre,org_84f7375815ea7cee,Royal Victoria Regional Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Runnymede Healthcare Centre,org_61440801564ac771,Runnymede Healthcare Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Salvation Army Toronto Grace Health Centre (The),org_d6e840718693dadf,Salvation Army Toronto Grace Health Centre (The),accepted,Exact source identity; trim display whitespace only; no succession inferred
+Santé Manitouwadge Health,org_d959f59caa11b7d8,Santé Manitouwadge Health,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Sault Area Hospital,org_aa663ce724750163,Sault Area Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Scarborough Health Network - General Site,org_742011c9d3ebc2b8,Scarborough Health Network - General Site,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Sensenbrenner Hospital,org_cfbec29ce50fd551,Sensenbrenner Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Services De Sante De Chapleau Health Services,org_338ea1409d983a36,Services De Sante De Chapleau Health Services,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Sinai Health System,org_0b49a1f094021633,Sinai Health System,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Sioux Lookout Meno-Ya-Win Health Centre,org_81bf474b8a591abb,Sioux Lookout Meno-Ya-Win Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Smooth Rock Falls Hospital,org_fdb6fadf44c4d84a,Smooth Rock Falls Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+South Bruce Grey Health Centre,org_3e9e9513663bca8e,South Bruce Grey Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+South Huron Hospital,org_3c60b271c600b995,South Huron Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Southlake Regional Health Centre,org_79c51d86ffb1cef3,Southlake Regional Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+St. Francis Memorial Hospital,org_df3f866172290061,St. Francis Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+St. Joseph's Care Group,org_d3073a9c030e8208,St. Joseph's Care Group,accepted,Exact source identity; trim display whitespace only; no succession inferred
+St. Joseph's Continuing Care Centre Of Sudbury,org_560e1c879e01383f,St. Joseph's Continuing Care Centre Of Sudbury,accepted,Exact source identity; trim display whitespace only; no succession inferred
+St. Joseph's General Hospital,org_4fdc5d1037df9eeb,St. Joseph's General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+St. Joseph's Health Care System Hamilton,org_4de606951725f2cf,St. Joseph's Health Care System Hamilton,accepted,Exact source identity; trim display whitespace only; no succession inferred
+"St. Joseph's Health Care, London",org_6973979025247640,"St. Joseph's Health Care, London",accepted,Exact source identity; trim display whitespace only; no succession inferred
+St. Joseph's Health Centre Guelph,org_de01d46fcf5bb1ba,St. Joseph's Health Centre Guelph,accepted,Exact source identity; trim display whitespace only; no succession inferred
+St. Mary's General Hospital,org_c87312fe8fe3ecfc,St. Mary's General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+St. Thomas-Elgin General Hospital,org_acee81efebccf2aa,St. Thomas-Elgin General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Stevenson Memorial Hospital Alliston,org_b1ec778cea54c697,Stevenson Memorial Hospital Alliston,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Sunnybrook Health Sciences Centre,org_27a0d7423324814d,Sunnybrook Health Sciences Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Temiskaming Hospital,org_23ae4c97f0248228,Temiskaming Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+The Lady Minto Hospital,org_ef7fa0230fe84ddb,The Lady Minto Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+The Ottawa Hospital,org_d2bd570a3d6ca469,The Ottawa Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+The Red Lake Margaret Cochenour Memorial Hospital,org_1a7c495aa56ff00b,The Red Lake Margaret Cochenour Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Thunder Bay Regional Hlth Sciences Ctr,org_d18cf9eb0363a76a,Thunder Bay Regional Hlth Sciences Ctr,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Tillsonburg District Memorial Hospital,org_5afc81cfbd5b073a,Tillsonburg District Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Timmins and District Hospital,org_8737cbba335bda39,Timmins and District Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Toronto East Health Network,org_09e512f7a82833f6,Toronto East Health Network,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Trillium Health Partners,org_e319a00348b4ae56,Trillium Health Partners,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Unity Health Toronto,org_c19caf85a78767bd,Unity Health Toronto,accepted,Exact source identity; trim display whitespace only; no succession inferred
+University Health Network,org_4a3868424c0ea7ea,University Health Network,accepted,Exact source identity; trim display whitespace only; no succession inferred
+University of Ottawa Heart Institute,org_0a50e18543c02308,University of Ottawa Heart Institute,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Waterloo Regional Health Network,org_267ec8ead513770a,Waterloo Regional Health Network,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Waypoint Centre For Mental Health Care,org_ea2f8e44d526fffc,Waypoint Centre For Mental Health Care,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Weeneebayko Area Health Authority,org_09b15e54e367b728,Weeneebayko Area Health Authority,accepted,Exact source identity; trim display whitespace only; no succession inferred
+West Haldimand General Hospital,org_fccdb5d56b6f960a,West Haldimand General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+West Nipissing General Hospital,org_2b5536d6945d6d97,West Nipissing General Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+West Parry Sound Health Centre,org_4cfafec1b3a16ee5,West Parry Sound Health Centre,accepted,Exact source identity; trim display whitespace only; no succession inferred
+William Osler Health System,org_2e8f27e53bab0301,William Osler Health System,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Winchester District Memorial Hospital,org_fb3ac5f6ed2b1a0d,Winchester District Memorial Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Windsor Regional Hospital,org_01f7d38f0c7f1cff,Windsor Regional Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Women's College Hospital,org_8e69cfb41c35f708,Women's College Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred
+Woodstock Hospital,org_2db7f90ca34301e6,Woodstock Hospital,accepted,Exact source identity; trim display whitespace only; no succession inferred

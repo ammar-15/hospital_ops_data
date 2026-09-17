@@ -1,0 +1,36 @@
+source_population,normalized_population,comparable,basis
+ALC patients,alc patients,true,Preserve source population distinction; trim/case only
+All acute patients,all acute patients,true,Preserve source population distinction; trim/case only
+All inpatients,all inpatients,true,Preserve source population distinction; trim/case only
+All patients,all patients,true,Preserve source population distinction; trim/case only
+All patients with major surgery,all patients with major surgery,true,Preserve source population distinction; trim/case only
+All surgical procedures,all surgical procedures,true,Preserve source population distinction; trim/case only
+COPD QBP Cohort,copd qbp cohort,true,Preserve source population distinction; trim/case only
+Clients,clients,true,Preserve source population distinction; trim/case only
+Complex continuing care patients,complex continuing care patients,true,Preserve source population distinction; trim/case only
+Discharged patients ,discharged patients,true,Preserve source population distinction; trim/case only
+Discharged patients with mental health & addiction,discharged patients with mental health & addiction,true,Preserve source population distinction; trim/case only
+ED patients,ed patients,true,Preserve source population distinction; trim/case only
+Family,family,true,Preserve source population distinction; trim/case only
+Health providers in the entire facility,health providers in the entire facility,true,Preserve source population distinction; trim/case only
+Hospital admitted patients,hospital admitted patients,true,Preserve source population distinction; trim/case only
+LTC home residents,ltc home residents,true,Preserve source population distinction; trim/case only
+Maternity Patients,maternity patients,true,Preserve source population distinction; trim/case only
+Mental health patients,mental health patients,true,Preserve source population distinction; trim/case only
+N/a,unknown,false,Preserve source population distinction; trim/case only
+Other,unknown,false,Preserve source population distinction; trim/case only
+PC patients/clients,pc patients/clients,true,Preserve source population distinction; trim/case only
+Palliative patients,palliative patients,true,Preserve source population distinction; trim/case only
+Patients,patients,true,Preserve source population distinction; trim/case only
+Patients deemed palliative or end of life,patients deemed palliative or end of life,true,Preserve source population distinction; trim/case only
+Patients with complex conditions,patients with complex conditions,true,Preserve source population distinction; trim/case only
+Pediatric Patients,pediatric patients,true,Preserve source population distinction; trim/case only
+People,people,true,Preserve source population distinction; trim/case only
+Population,population,true,Preserve source population distinction; trim/case only
+Rehab,rehab,true,Preserve source population distinction; trim/case only
+Residents,residents,true,Preserve source population distinction; trim/case only
+Short Stay Clients,short stay clients,true,Preserve source population distinction; trim/case only
+Staff,staff,true,Preserve source population distinction; trim/case only
+Survey respondents,survey respondents,true,Preserve source population distinction; trim/case only
+Worker,worker,true,Preserve source population distinction; trim/case only
+at-risk cohort,at-risk cohort,true,Preserve source population distinction; trim/case only

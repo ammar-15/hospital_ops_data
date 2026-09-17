@@ -1,0 +1,411 @@
+{
+  "version": "2.0",
+  "default_direction": "unknown",
+  "default_ed_scope": "needs_review",
+  "ed_scope_definition": "Eight exact ED Access & Flow strings from Phase 1. Local variants remain needs_review; no exhaustive ED coverage claimed.",
+  "indicators": {
+    "90th percentile ambulance offload time": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "minutes"
+      ],
+      "expected_populations": [
+        "patients"
+      ],
+      "ed_scope": "included",
+      "basis": "Ontario Health technical specifications explicitly state decrease/lower is better; no inference from numeric values.",
+      "display_name": "Ambulance offload (90th percentile)",
+      "unit": "minutes",
+      "comparable_population": "Unscheduled ambulance arrivals; valid arrival/transfer timestamps",
+      "definition_verified": true,
+      "indicator_outcome_eligible": true,
+      "definition_sources": [
+        {
+          "url": "https://www.hqontario.ca/Portals/0/documents/qi/qip/2025-26-QIP-technical-specifications-en.pdf",
+          "page": 7
+        },
+        {
+          "url": "https://qipnavigator.hqontario.ca/portals/0/documents/qi/qip/2025/Technical%20Specifications%20EN.pdf",
+          "page": 9
+        }
+      ],
+      "reporting_period_information": {
+        "2025/26_workplan": {
+          "ERNI": "2023-12-01/2024-11-30",
+          "non_ERNI": "2024-04-01/2024-09-30"
+        },
+        "2026/27_published_current_performance": "2024-12-01/2025-11-30",
+        "record_application": "Published defaults only. ERNI status and actual windows are not supplied by the exports. Do not assign dates to individual comparisons without evidence."
+      },
+      "outcome_eligibility_note": "Definition eligible; each cycle also requires verified units, population, comparable observation windows and accepted match.",
+      "metadata_review_date": "2026-09-16"
+    },
+    "90th percentile emergency department wait time to physician initial assessment": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "hours"
+      ],
+      "expected_populations": [
+        "ed patients"
+      ],
+      "ed_scope": "included",
+      "basis": "Ontario Health technical specifications explicitly state decrease/lower is better; no inference from numeric values.",
+      "display_name": "Time to physician assessment (90th percentile)",
+      "unit": "hours",
+      "comparable_population": "Unscheduled ED visits assessed by a physician",
+      "definition_verified": true,
+      "indicator_outcome_eligible": true,
+      "definition_sources": [
+        {
+          "url": "https://www.hqontario.ca/Portals/0/documents/qi/qip/2025-26-QIP-technical-specifications-en.pdf",
+          "page": 8
+        },
+        {
+          "url": "https://qipnavigator.hqontario.ca/portals/0/documents/qi/qip/2025/Technical%20Specifications%20EN.pdf",
+          "page": 10
+        }
+      ],
+      "reporting_period_information": {
+        "2025/26_workplan": {
+          "ERNI": "2023-12-01/2024-11-30",
+          "non_ERNI": "2024-04-01/2024-09-30"
+        },
+        "2026/27_published_current_performance": "2024-12-01/2025-11-30",
+        "record_application": "Published defaults only. ERNI status and actual windows are not supplied by the exports. Do not assign dates to individual comparisons without evidence."
+      },
+      "outcome_eligibility_note": "Definition eligible; each cycle also requires verified units, population, comparable observation windows and accepted match.",
+      "metadata_review_date": "2026-09-16"
+    },
+    "Daily average number of patients waiting in the emergency department for an inpatient bed at 8 a.m.": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "count"
+      ],
+      "expected_populations": [
+        "ed patients"
+      ],
+      "ed_scope": "included",
+      "basis": "Ontario Health technical specifications explicitly state decrease/lower is better; no inference from numeric values.",
+      "display_name": "Patients awaiting a bed at 8 a.m. (daily average)",
+      "unit": "patients_per_day",
+      "comparable_population": "Unscheduled admitted ED patients still waiting at 8 a.m.; disposition wait exceeds two hours",
+      "definition_verified": true,
+      "indicator_outcome_eligible": true,
+      "definition_sources": [
+        {
+          "url": "https://www.hqontario.ca/Portals/0/documents/qi/qip/2025-26-QIP-technical-specifications-en.pdf",
+          "page": 9
+        },
+        {
+          "url": "https://qipnavigator.hqontario.ca/portals/0/documents/qi/qip/2025/Technical%20Specifications%20EN.pdf",
+          "page": 11
+        }
+      ],
+      "reporting_period_information": {
+        "2025/26_workplan": {
+          "all": "2024-04-01/2024-09-30"
+        },
+        "2026/27_published_current_performance": "2024-04-01/2025-03-31",
+        "record_application": "Published defaults only. ERNI status and actual windows are not supplied by the exports. Do not assign dates to individual comparisons without evidence."
+      },
+      "outcome_eligibility_note": "Definition eligible; each cycle also requires verified units, population, comparable observation windows and accepted match.",
+      "metadata_review_date": "2026-09-16"
+    },
+    "90th percentile emergency department length of stay for nonadmitted patients with low acuity": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "hours"
+      ],
+      "expected_populations": [
+        "ed patients"
+      ],
+      "ed_scope": "included",
+      "basis": "Ontario Health technical specifications explicitly state decrease/lower is better; no inference from numeric values.",
+      "display_name": "Nonadmitted ED stay, CTAS 4–5 (90th percentile)",
+      "unit": "hours",
+      "comparable_population": "Unscheduled nonadmitted ED visits, CTAS 4–5; excludes LWBS",
+      "definition_verified": true,
+      "indicator_outcome_eligible": true,
+      "definition_sources": [
+        {
+          "url": "https://www.hqontario.ca/Portals/0/documents/qi/qip/2025-26-QIP-technical-specifications-en.pdf",
+          "page": 11
+        },
+        {
+          "url": "https://qipnavigator.hqontario.ca/portals/0/documents/qi/qip/2025/Technical%20Specifications%20EN.pdf",
+          "page": 12
+        }
+      ],
+      "reporting_period_information": {
+        "2025/26_workplan": {
+          "ERNI": "2023-12-01/2024-11-30",
+          "non_ERNI": "2024-04-01/2024-09-30"
+        },
+        "2026/27_published_current_performance": "2024-12-01/2025-11-30",
+        "record_application": "Published defaults only. ERNI status and actual windows are not supplied by the exports. Do not assign dates to individual comparisons without evidence."
+      },
+      "outcome_eligibility_note": "Definition eligible; each cycle also requires verified units, population, comparable observation windows and accepted match.",
+      "metadata_review_date": "2026-09-16"
+    },
+    "90th percentile emergency department length of stay for nonadmitted patients with high acuity": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "hours"
+      ],
+      "expected_populations": [
+        "ed patients"
+      ],
+      "ed_scope": "included",
+      "basis": "Ontario Health technical specifications explicitly state decrease/lower is better; no inference from numeric values.",
+      "display_name": "Nonadmitted ED stay, CTAS 1–3 (90th percentile)",
+      "unit": "hours",
+      "comparable_population": "Unscheduled nonadmitted ED visits, CTAS 1–3; excludes LWBS",
+      "definition_verified": true,
+      "indicator_outcome_eligible": true,
+      "definition_sources": [
+        {
+          "url": "https://www.hqontario.ca/Portals/0/documents/qi/qip/2025-26-QIP-technical-specifications-en.pdf",
+          "page": 13
+        },
+        {
+          "url": "https://qipnavigator.hqontario.ca/portals/0/documents/qi/qip/2025/Technical%20Specifications%20EN.pdf",
+          "page": 13
+        }
+      ],
+      "reporting_period_information": {
+        "2025/26_workplan": {
+          "ERNI": "2023-12-01/2024-11-30",
+          "non_ERNI": "2024-04-01/2024-09-30"
+        },
+        "2026/27_published_current_performance": "2024-12-01/2025-11-30",
+        "record_application": "Published defaults only. ERNI status and actual windows are not supplied by the exports. Do not assign dates to individual comparisons without evidence."
+      },
+      "outcome_eligibility_note": "Definition eligible; each cycle also requires verified units, population, comparable observation windows and accepted match.",
+      "metadata_review_date": "2026-09-16"
+    },
+    "90th percentile emergency department length of stay for admitted patients": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "hours"
+      ],
+      "expected_populations": [
+        "ed patients"
+      ],
+      "ed_scope": "included",
+      "basis": "Ontario Health technical specifications explicitly state decrease/lower is better; no inference from numeric values.",
+      "display_name": "Admitted ED stay (90th percentile)",
+      "unit": "hours",
+      "comparable_population": "Unscheduled ED visits resulting in admission; excludes LWBS",
+      "definition_verified": true,
+      "indicator_outcome_eligible": true,
+      "definition_sources": [
+        {
+          "url": "https://www.hqontario.ca/Portals/0/documents/qi/qip/2025-26-QIP-technical-specifications-en.pdf",
+          "page": 10
+        },
+        {
+          "url": "https://qipnavigator.hqontario.ca/portals/0/documents/qi/qip/2025/Technical%20Specifications%20EN.pdf",
+          "page": 14
+        }
+      ],
+      "reporting_period_information": {
+        "2025/26_workplan": {
+          "ERNI": "2023-12-01/2024-11-30",
+          "non_ERNI": "2024-04-01/2024-09-30"
+        },
+        "2026/27_published_current_performance": "2024-12-01/2025-11-30",
+        "record_application": "Published defaults only. ERNI status and actual windows are not supplied by the exports. Do not assign dates to individual comparisons without evidence."
+      },
+      "outcome_eligibility_note": "Definition eligible; each cycle also requires verified units, population, comparable observation windows and accepted match.",
+      "metadata_review_date": "2026-09-16"
+    },
+    "90th percentile emergency department wait time to inpatient bed": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "hours"
+      ],
+      "expected_populations": [
+        "ed patients"
+      ],
+      "ed_scope": "included",
+      "basis": "Ontario Health technical specifications explicitly state decrease/lower is better; no inference from numeric values.",
+      "display_name": "Disposition to inpatient bed (90th percentile)",
+      "unit": "hours",
+      "comparable_population": "Unscheduled ED visits resulting in admission",
+      "definition_verified": true,
+      "indicator_outcome_eligible": true,
+      "definition_sources": [
+        {
+          "url": "https://www.hqontario.ca/Portals/0/documents/qi/qip/2025-26-QIP-technical-specifications-en.pdf",
+          "page": 15
+        },
+        {
+          "url": "https://qipnavigator.hqontario.ca/portals/0/documents/qi/qip/2025/Technical%20Specifications%20EN.pdf",
+          "page": 15
+        }
+      ],
+      "reporting_period_information": {
+        "2025/26_workplan": {
+          "ERNI": "2023-12-01/2024-11-30",
+          "non_ERNI": "2024-04-01/2024-09-30"
+        },
+        "2026/27_published_current_performance": "2024-12-01/2025-11-30",
+        "record_application": "Published defaults only. ERNI status and actual windows are not supplied by the exports. Do not assign dates to individual comparisons without evidence."
+      },
+      "outcome_eligibility_note": "Definition eligible; each cycle also requires verified units, population, comparable observation windows and accepted match.",
+      "metadata_review_date": "2026-09-16"
+    },
+    "Percent of patients who visited the ED and left without being seen by a physician": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "percent"
+      ],
+      "expected_populations": [
+        "ed patients"
+      ],
+      "ed_scope": "included",
+      "basis": "Ontario Health technical specifications explicitly state decrease/lower is better; no inference from numeric values.",
+      "display_name": "ED visits leaving without physician assessment",
+      "unit": "percent",
+      "comparable_population": "Unscheduled ED visits; numerator dispositions 61/63, excludes 62/64",
+      "definition_verified": true,
+      "indicator_outcome_eligible": true,
+      "definition_sources": [
+        {
+          "url": "https://www.hqontario.ca/Portals/0/documents/qi/qip/2025-26-QIP-technical-specifications-en.pdf",
+          "page": 16
+        },
+        {
+          "url": "https://qipnavigator.hqontario.ca/portals/0/documents/qi/qip/2025/Technical%20Specifications%20EN.pdf",
+          "page": 16
+        }
+      ],
+      "reporting_period_information": {
+        "2025/26_workplan": {
+          "all": "2024-04-01/2024-09-30"
+        },
+        "2026/27_published_current_performance": "2024-04-01/2025-03-31",
+        "record_application": "Published defaults only. ERNI status and actual windows are not supplied by the exports. Do not assign dates to individual comparisons without evidence."
+      },
+      "outcome_eligibility_note": "Definition eligible; each cycle also requires verified units, population, comparable observation windows and accepted match.",
+      "metadata_review_date": "2026-09-16"
+    },
+    "90th percentile ED length of stay": {
+      "direction": "unknown",
+      "expected_units": [
+        "hours"
+      ],
+      "expected_populations": [
+        "ed patients"
+      ],
+      "ed_scope": "needs_review",
+      "basis": "Legacy nonspecific ED LOS definition unverified; no admission or acuity population supplied.",
+      "indicator_outcome_eligible": false,
+      "definition_verified": false
+    },
+    "Percentage of respondents who responded “completely” to the following question: Did you receive enough information from hospital staff about what to do if you were worried about your condition or treatment after you left the hospital?": {
+      "direction": "higher_is_better",
+      "expected_units": [
+        "percent"
+      ],
+      "expected_populations": [
+        "survey respondents",
+        "discharged patients",
+        "all patients",
+        "ed patients"
+      ],
+      "ed_scope": "excluded",
+      "basis": "Direction follows explicit desired completion/information or adverse-event/waiting measure wording; unit/population whitelist; not inferred from target values"
+    },
+    "Percentage of staff (executive-level, management, or all) who have completed relevant equity, diversity, inclusion, and anti-racism education": {
+      "direction": "higher_is_better",
+      "expected_units": [
+        "percent"
+      ],
+      "expected_populations": [
+        "staff"
+      ],
+      "ed_scope": "excluded",
+      "basis": "Direction follows explicit desired completion/information or adverse-event/waiting measure wording; unit/population whitelist; not inferred from target values"
+    },
+    "Rate of workplace violence incidents resulting in lost time injury": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "rate_per_100",
+        "rate_per_1000"
+      ],
+      "expected_populations": [
+        "staff",
+        "worker"
+      ],
+      "ed_scope": "excluded",
+      "basis": "Direction follows explicit desired completion/information or adverse-event/waiting measure wording; unit/population whitelist; not inferred from target values"
+    },
+    "Rate of delirium onset during hospitalization": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "percent",
+        "rate_per_100",
+        "rate_per_1000"
+      ],
+      "expected_populations": [
+        "all inpatients",
+        "hospital admitted patients",
+        "all patients"
+      ],
+      "ed_scope": "excluded",
+      "basis": "Direction follows explicit desired completion/information or adverse-event/waiting measure wording; unit/population whitelist; not inferred from target values"
+    },
+    "Medication reconciliation at discharge: Total number of discharged patients for whom a Best Possible Medication Discharge Plan was created as a proportion the total number of patients discharged.": {
+      "direction": "higher_is_better",
+      "expected_units": [
+        "percent",
+        "proportion"
+      ],
+      "expected_populations": [
+        "discharged patients",
+        "all inpatients",
+        "hospital admitted patients"
+      ],
+      "ed_scope": "excluded",
+      "basis": "Direction follows explicit desired completion/information or adverse-event/waiting measure wording; unit/population whitelist; not inferred from target values"
+    },
+    "Percent discharge summaries sent from hospital to community care provider within 48 hours of discharge": {
+      "direction": "higher_is_better",
+      "expected_units": [
+        "percent"
+      ],
+      "expected_populations": [
+        "discharged patients",
+        "all inpatients",
+        "hospital admitted patients"
+      ],
+      "ed_scope": "excluded",
+      "basis": "Direction follows explicit desired completion/information or adverse-event/waiting measure wording; unit/population whitelist; not inferred from target values"
+    },
+    "Percentage of patients readmitted to hospital within 30 days of discharge after hospitalization for mental illness or addiction": {
+      "direction": "lower_is_better",
+      "expected_units": [
+        "percent"
+      ],
+      "expected_populations": [
+        "mental health patients",
+        "discharged patients with mental health & addiction"
+      ],
+      "ed_scope": "excluded",
+      "basis": "Direction follows explicit desired completion/information or adverse-event/waiting measure wording; unit/population whitelist; not inferred from target values"
+    },
+    "Percent of care completed within the clinically recommended window": {
+      "direction": "higher_is_better",
+      "expected_units": [
+        "percent"
+      ],
+      "expected_populations": [
+        "all patients",
+        "patients"
+      ],
+      "ed_scope": "excluded",
+      "basis": "Direction follows explicit desired completion/information or adverse-event/waiting measure wording; unit/population whitelist; not inferred from target values"
+    }
+  }
+}

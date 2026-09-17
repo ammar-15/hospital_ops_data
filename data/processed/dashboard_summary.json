@@ -1,0 +1,3759 @@
+{
+  "schema_version": "1.0",
+  "scope": "Eight defined ED indicators; 2025/26 Workplan → 2026/27 Progress Report",
+  "category_outcome_language": "cycles containing this intervention category",
+  "outcome_grain": "unique organization-indicator cycles; categories overlap and are not additive",
+  "zero_denominator_display": "Not available; never display a null percentage as 0%",
+  "analysis_status": "no_verified_comparisons",
+  "primary_ed_cycle_candidates": {
+    "numerator": 206,
+    "denominator": 206,
+    "sample_size": 206,
+    "percentage": 100.0,
+    "grain": "cycles"
+  },
+  "matched_ed_cycles": {
+    "numerator": 130,
+    "denominator": 206,
+    "sample_size": 206,
+    "percentage": 63.10679611650485,
+    "grain": "cycles"
+  },
+  "numeric_change_candidates_before_period_verification": {
+    "numerator": 129,
+    "denominator": 206,
+    "sample_size": 206,
+    "percentage": 62.62135922330097,
+    "grain": "cycles"
+  },
+  "analyzable_ed_cycles": {
+    "numerator": 0,
+    "denominator": 206,
+    "sample_size": 206,
+    "percentage": 0.0,
+    "grain": "cycles"
+  },
+  "calculable_ed_outcomes": {
+    "numerator": 0,
+    "denominator": 0,
+    "sample_size": 0,
+    "percentage": null,
+    "grain": "cycles"
+  },
+  "overall": {
+    "analyzable_cycles": {
+      "numerator": 0,
+      "denominator": 206,
+      "sample_size": 206,
+      "percentage": 0.0,
+      "grain": "cycles"
+    },
+    "calculable_outcomes": {
+      "numerator": 0,
+      "denominator": 0,
+      "sample_size": 0,
+      "percentage": null,
+      "grain": "cycles"
+    },
+    "insufficient_numeric_data": {
+      "numerator": 0,
+      "denominator": 0,
+      "sample_size": 0,
+      "percentage": null,
+      "grain": "cycles"
+    },
+    "improved_count": {
+      "numerator": 0,
+      "denominator": 0,
+      "sample_size": 0,
+      "percentage": null,
+      "grain": "cycles"
+    },
+    "worsened_count": {
+      "numerator": 0,
+      "denominator": 0,
+      "sample_size": 0,
+      "percentage": null,
+      "grain": "cycles"
+    },
+    "unchanged_count": {
+      "numerator": 0,
+      "denominator": 0,
+      "sample_size": 0,
+      "percentage": null,
+      "grain": "cycles"
+    },
+    "target_met_count": {
+      "numerator": 0,
+      "denominator": 0,
+      "sample_size": 0,
+      "percentage": null,
+      "grain": "cycles"
+    },
+    "target_not_met_count": {
+      "numerator": 0,
+      "denominator": 0,
+      "sample_size": 0,
+      "percentage": null,
+      "grain": "cycles"
+    },
+    "target_unavailable": {
+      "numerator": 0,
+      "denominator": 0,
+      "sample_size": 0,
+      "percentage": null,
+      "grain": "cycles"
+    },
+    "eligible_cycle_ids": [],
+    "outcome_cycle_ids": [],
+    "target_cycle_ids": []
+  },
+  "category_counts": {
+    "Admission & Transfer Process": {
+      "numerator": 26,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 7.027027027027027,
+      "grain": "historical idea associations"
+    },
+    "Ambulance / EMS Flow": {
+      "numerator": 41,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 11.08108108108108,
+      "grain": "historical idea associations"
+    },
+    "Bed & Capacity Management": {
+      "numerator": 7,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 1.8918918918918919,
+      "grain": "historical idea associations"
+    },
+    "Care Coordination & Communication": {
+      "numerator": 30,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 8.108108108108109,
+      "grain": "historical idea associations"
+    },
+    "Data, Measurement & Dashboards": {
+      "numerator": 15,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 4.054054054054054,
+      "grain": "historical idea associations"
+    },
+    "Discharge & Transition Planning": {
+      "numerator": 33,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 8.91891891891892,
+      "grain": "historical idea associations"
+    },
+    "Emergency Department Workflow": {
+      "numerator": 26,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 7.027027027027027,
+      "grain": "historical idea associations"
+    },
+    "Other": {
+      "numerator": 111,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 30.0,
+      "grain": "historical idea associations"
+    },
+    "Patient Streaming / Triage": {
+      "numerator": 23,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 6.216216216216216,
+      "grain": "historical idea associations"
+    },
+    "Policy / Standardization": {
+      "numerator": 3,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 0.8108108108108109,
+      "grain": "historical idea associations"
+    },
+    "Safety & Risk Prevention": {
+      "numerator": 0,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 0.0,
+      "grain": "historical idea associations"
+    },
+    "Staffing & Scheduling": {
+      "numerator": 24,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 6.486486486486487,
+      "grain": "historical idea associations"
+    },
+    "Surge Management": {
+      "numerator": 8,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 2.1621621621621623,
+      "grain": "historical idea associations"
+    },
+    "Technology & Digital Tools": {
+      "numerator": 13,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 3.5135135135135136,
+      "grain": "historical idea associations"
+    },
+    "Training & Education": {
+      "numerator": 10,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 2.7027027027027026,
+      "grain": "historical idea associations"
+    }
+  },
+  "implementation_status_counts": {
+    "Implemented": {
+      "numerator": 164,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 44.32432432432432,
+      "grain": "historical idea associations"
+    },
+    "Not implemented": {
+      "numerator": 58,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 15.675675675675675,
+      "grain": "historical idea associations"
+    },
+    "Partial/conflicting": {
+      "numerator": 0,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 0.0,
+      "grain": "historical idea associations"
+    },
+    "Unknown": {
+      "numerator": 148,
+      "denominator": 370,
+      "sample_size": 370,
+      "percentage": 40.0,
+      "grain": "historical idea associations"
+    }
+  },
+  "implementation_population": "All primary-period ED idea associations, including progress-only; distinct from outcome eligibility",
+  "current_2026_27_plan_counts_by_category": {
+    "Admission & Transfer Process": {
+      "numerator": 31,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 7.226107226107226,
+      "grain": "current ED idea associations"
+    },
+    "Ambulance / EMS Flow": {
+      "numerator": 45,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 10.48951048951049,
+      "grain": "current ED idea associations"
+    },
+    "Bed & Capacity Management": {
+      "numerator": 3,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 0.6993006993006993,
+      "grain": "current ED idea associations"
+    },
+    "Care Coordination & Communication": {
+      "numerator": 30,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 6.993006993006993,
+      "grain": "current ED idea associations"
+    },
+    "Data, Measurement & Dashboards": {
+      "numerator": 19,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 4.428904428904429,
+      "grain": "current ED idea associations"
+    },
+    "Discharge & Transition Planning": {
+      "numerator": 34,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 7.925407925407925,
+      "grain": "current ED idea associations"
+    },
+    "Emergency Department Workflow": {
+      "numerator": 35,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 8.158508158508159,
+      "grain": "current ED idea associations"
+    },
+    "Other": {
+      "numerator": 151,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 35.1981351981352,
+      "grain": "current ED idea associations"
+    },
+    "Patient Streaming / Triage": {
+      "numerator": 26,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 6.0606060606060606,
+      "grain": "current ED idea associations"
+    },
+    "Policy / Standardization": {
+      "numerator": 7,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 1.6317016317016317,
+      "grain": "current ED idea associations"
+    },
+    "Safety & Risk Prevention": {
+      "numerator": 0,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 0.0,
+      "grain": "current ED idea associations"
+    },
+    "Staffing & Scheduling": {
+      "numerator": 27,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 6.293706293706293,
+      "grain": "current ED idea associations"
+    },
+    "Surge Management": {
+      "numerator": 7,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 1.6317016317016317,
+      "grain": "current ED idea associations"
+    },
+    "Technology & Digital Tools": {
+      "numerator": 8,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 1.8648018648018647,
+      "grain": "current ED idea associations"
+    },
+    "Training & Education": {
+      "numerator": 6,
+      "denominator": 429,
+      "sample_size": 429,
+      "percentage": 1.3986013986013985,
+      "grain": "current ED idea associations"
+    }
+  },
+  "outcome_counts_by_category": {
+    "Admission & Transfer Process": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 25,
+        "sample_size": 25,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Ambulance / EMS Flow": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 33,
+        "sample_size": 33,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Bed & Capacity Management": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 7,
+        "sample_size": 7,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Care Coordination & Communication": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 29,
+        "sample_size": 29,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Data, Measurement & Dashboards": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 14,
+        "sample_size": 14,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Discharge & Transition Planning": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 25,
+        "sample_size": 25,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Emergency Department Workflow": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 23,
+        "sample_size": 23,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Other": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 79,
+        "sample_size": 79,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Patient Streaming / Triage": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 22,
+        "sample_size": 22,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Policy / Standardization": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 3,
+        "sample_size": 3,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Safety & Risk Prevention": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Staffing & Scheduling": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 22,
+        "sample_size": 22,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Surge Management": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 8,
+        "sample_size": 8,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Technology & Digital Tools": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 13,
+        "sample_size": 13,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Training & Education": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 10,
+        "sample_size": 10,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    }
+  },
+  "outcome_counts_by_category_single_classified": {
+    "Admission & Transfer Process": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 15,
+        "sample_size": 15,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Ambulance / EMS Flow": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 17,
+        "sample_size": 17,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Bed & Capacity Management": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 2,
+        "sample_size": 2,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Care Coordination & Communication": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 10,
+        "sample_size": 10,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Data, Measurement & Dashboards": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 9,
+        "sample_size": 9,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Discharge & Transition Planning": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 7,
+        "sample_size": 7,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Emergency Department Workflow": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 13,
+        "sample_size": 13,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Other": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Patient Streaming / Triage": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 11,
+        "sample_size": 11,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Policy / Standardization": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 1,
+        "sample_size": 1,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Safety & Risk Prevention": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Staffing & Scheduling": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 8,
+        "sample_size": 8,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Surge Management": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 2,
+        "sample_size": 2,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Technology & Digital Tools": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 5,
+        "sample_size": 5,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Training & Education": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 2,
+        "sample_size": 2,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    }
+  },
+  "outcome_counts_by_hospital_model": {
+    "Large Community Hospital": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 99,
+        "sample_size": 99,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Small Hospital": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 85,
+        "sample_size": 85,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Specialty Children Hospital": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 1,
+        "sample_size": 1,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Teaching Hospital": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 12,
+        "sample_size": 12,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Unknown": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 9,
+        "sample_size": 9,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    }
+  },
+  "outcome_counts_by_region": {
+    "Central Region": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 17,
+        "sample_size": 17,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "East Region": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 56,
+        "sample_size": 56,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "North East Region": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 42,
+        "sample_size": 42,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "North West Region": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 22,
+        "sample_size": 22,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "Toronto Region": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 16,
+        "sample_size": 16,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "West Region": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 53,
+        "sample_size": 53,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    }
+  },
+  "outcome_counts_by_indicator": {
+    "ind_06590f50f65eac7e": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 19,
+        "sample_size": 19,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "ind_5b2e1352e31909e8": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 28,
+        "sample_size": 28,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "ind_7ebd4762b8a6c688": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 12,
+        "sample_size": 12,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "ind_e666bcb709405e0f": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 11,
+        "sample_size": 11,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "ind_e7cd9b5804f1c518": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 60,
+        "sample_size": 60,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "ind_ee70b593aad3e4f6": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 43,
+        "sample_size": 43,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "ind_ef4a9573ead4ee92": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 24,
+        "sample_size": 24,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    },
+    "ind_f197a93604c302d2": {
+      "analyzable_cycles": {
+        "numerator": 0,
+        "denominator": 9,
+        "sample_size": 9,
+        "percentage": 0.0,
+        "grain": "cycles"
+      },
+      "calculable_outcomes": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "insufficient_numeric_data": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "improved_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "worsened_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "unchanged_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_not_met_count": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "target_unavailable": {
+        "numerator": 0,
+        "denominator": 0,
+        "sample_size": 0,
+        "percentage": null,
+        "grain": "cycles"
+      },
+      "eligible_cycle_ids": [],
+      "outcome_cycle_ids": [],
+      "target_cycle_ids": []
+    }
+  },
+  "category_structure": {
+    "single_category_cycle": {
+      "numerator": 130,
+      "denominator": 206,
+      "sample_size": 206,
+      "percentage": 63.10679611650485,
+      "grain": "cycles"
+    },
+    "multi_category_cycle": {
+      "numerator": 76,
+      "denominator": 206,
+      "sample_size": 206,
+      "percentage": 36.89320388349515,
+      "grain": "cycles"
+    },
+    "single_classified_category_cycle": {
+      "numerator": 102,
+      "denominator": 206,
+      "sample_size": 206,
+      "percentage": 49.51456310679612,
+      "grain": "cycles"
+    },
+    "has_unclassified_interventions": {
+      "numerator": 79,
+      "denominator": 206,
+      "sample_size": 206,
+      "percentage": 38.349514563106794,
+      "grain": "cycles"
+    }
+  },
+  "fully_verified_ed_indicator_definitions": 8,
+  "exclusion_counts": {
+    "reporting_period_unverified": {
+      "numerator": 129,
+      "denominator": 206,
+      "sample_size": 206,
+      "percentage": 62.62135922330097,
+      "grain": "cycles"
+    },
+    "reporting_periods_not_comparable": {
+      "numerator": 1,
+      "denominator": 206,
+      "sample_size": 206,
+      "percentage": 0.4854368932038835,
+      "grain": "cycles"
+    },
+    "unit_unverified; population_unverified; reporting_period_unverified; historical_match_unavailable_or_ambiguous": {
+      "numerator": 76,
+      "denominator": 206,
+      "sample_size": 206,
+      "percentage": 36.89320388349515,
+      "grain": "cycles"
+    }
+  },
+  "implementation_rate": {
+    "numerator": 164,
+    "denominator": 222,
+    "sample_size": 222,
+    "percentage": 73.87387387387388,
+    "grain": "historical idea associations"
+  }
+}

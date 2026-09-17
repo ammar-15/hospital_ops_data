@@ -1,0 +1,19 @@
+source_unit,normalized_unit,comparable,basis
+%,percent,true,Explicit unit label
+90th percentile,unknown,false,"Unspecified rate denominator, Other, or statistic without a physical unit"
+Count,count,true,Explicit unit label
+Days,days,true,Explicit unit label
+Dollars,dollars,true,Explicit unit label
+Hours,hours,true,Explicit unit label
+Minutes,minutes,true,Explicit unit label
+Number,count,true,Explicit unit label
+Other,unknown,false,"Unspecified rate denominator, Other, or statistic without a physical unit"
+Proportion,proportion,true,Explicit unit label
+Rate,unknown,false,"Unspecified rate denominator, Other, or statistic without a physical unit"
+"Rate per 1,000",rate_per_1000,true,Explicit unit label
+"Rate per 1,000 patient days",rate_per_1000_patient_days,true,Explicit unit label
+Rate per 100,rate_per_100,true,Explicit unit label
+Rate per 100 inpatient days,rate_per_100_inpatient_days,true,Explicit unit label
+Rate per 100 residents,rate_per_100_residents,true,Explicit unit label
+Rate per total number of discharged patients,rate_per_discharged_patient,true,Explicit unit label
+Ratio (No unit),ratio,true,Explicit unit label

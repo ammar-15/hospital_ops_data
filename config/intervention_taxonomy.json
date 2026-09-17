@@ -1,0 +1,252 @@
+{
+  "version": "1.1",
+  "method": "Existing v1 patterns retain priority. Only when none match, count matching refinement rules by category; highest count wins, taxonomy order breaks ties. Rules inspect change idea text only; Other for no support. Confidence is qualitative evidence strength, not a probability.",
+  "categories": [
+    {
+      "name": "Staffing & Scheduling",
+      "patterns": [
+        "\\bstaffing\\b",
+        "\\bschedul(?:e|es|ing)\\b",
+        "\\brecruit\\w*",
+        "\\broster\\w*",
+        "\\bnurse practitioner\\b"
+      ]
+    },
+    {
+      "name": "Bed & Capacity Management",
+      "patterns": [
+        "\\bbed management\\b",
+        "\\bbed capacity\\b",
+        "\\bbed allocation\\b",
+        "\\bcapacity planning\\b",
+        "\\bbed meetings?\\b"
+      ]
+    },
+    {
+      "name": "Discharge & Transition Planning",
+      "patterns": [
+        "\\bdischarg\\w*",
+        "\\btransition(?:s|al)?\\b",
+        "\\bpost.discharge\\b"
+      ]
+    },
+    {
+      "name": "Emergency Department Workflow",
+      "patterns": [
+        "\\bED workflow\\b",
+        "\\bemergency department workflow\\b",
+        "\\bphysician initial assessment\\b",
+        "\\bPIA\\b",
+        "\\bED flow\\b"
+      ]
+    },
+    {
+      "name": "Admission & Transfer Process",
+      "patterns": [
+        "\\badmission\\w*",
+        "\\btransfer\\w*"
+      ]
+    },
+    {
+      "name": "Data, Measurement & Dashboards",
+      "patterns": [
+        "\\bdashboard\\w*",
+        "\\bdata collection\\b",
+        "\\banalys(?:is|e|es|ing)\\b",
+        "\\baudit\\w*",
+        "\\bmeasurement\\b"
+      ]
+    },
+    {
+      "name": "Technology & Digital Tools",
+      "patterns": [
+        "\\belectronic\\b",
+        "\\bdigital\\b",
+        "\\bEpic\\b",
+        "\\bEMR\\b",
+        "\\bEHR\\b",
+        "\\bsoftware\\b",
+        "\\bautomat\\w*"
+      ]
+    },
+    {
+      "name": "Training & Education",
+      "patterns": [
+        "\\btrain(?:ing|ed)\\b",
+        "\\beducat\\w*",
+        "\\blearning\\b",
+        "\\bworkshop\\w*"
+      ]
+    },
+    {
+      "name": "Care Coordination & Communication",
+      "patterns": [
+        "\\bhuddle\\w*",
+        "\\bcommunicat\\w*",
+        "\\bcoordinat\\w*",
+        "\\bmultidisciplinary\\b",
+        "\\binterdisciplinary\\b"
+      ]
+    },
+    {
+      "name": "Ambulance / EMS Flow",
+      "patterns": [
+        "\\bambulance\\b",
+        "\\bEMS\\b",
+        "\\boffload\\w*",
+        "\\bparamedic\\w*"
+      ]
+    },
+    {
+      "name": "Surge Management",
+      "patterns": [
+        "\\bsurge\\b",
+        "\\bovercapacity\\b",
+        "\\bover.capacity\\b"
+      ]
+    },
+    {
+      "name": "Patient Streaming / Triage",
+      "patterns": [
+        "\\btriage\\b",
+        "\\bstreaming\\b",
+        "\\bfast.track\\b",
+        "\\bCTAS\\b"
+      ]
+    },
+    {
+      "name": "Policy / Standardization",
+      "patterns": [
+        "\\bpolic(?:y|ies)\\b",
+        "\\bstandardiz\\w*",
+        "\\bstandardis\\w*",
+        "\\bprotocol\\w*",
+        "\\bguideline\\w*"
+      ]
+    },
+    {
+      "name": "Safety & Risk Prevention",
+      "patterns": []
+    },
+    {
+      "name": "Other",
+      "patterns": []
+    }
+  ],
+  "refinement_rules": [
+    {
+      "rule_id": "staff_shifts",
+      "category": "Staffing & Scheduling",
+      "pattern": "\\b(?:physician|nurs\\w*|staff) shifts?\\b|\\b(?:shift coverage|HHR|staff complement)\\b",
+      "reason": "Explicit staffing resources or shift coverage"
+    },
+    {
+      "rule_id": "bed_turnover",
+      "category": "Bed & Capacity Management",
+      "pattern": "\\bbed (?:assignment|turnover|turnaround|utilization|utilisation|ahead)\\b|\\bstretcher utilization\\b|\\bbeds? to be cleaned\\b",
+      "reason": "Explicit allocation or turnover of beds"
+    },
+    {
+      "rule_id": "ed_process",
+      "category": "Emergency Department Workflow",
+      "pattern": "\\b(?:ED|emergency department) (?:lab turnaround|process mapping|flow process)\\b|\\bprioriti\\w* of patients with longest LOS waiting in ED\\b",
+      "reason": "Explicit ED process or diagnostic flow action"
+    },
+    {
+      "rule_id": "referral_pathway",
+      "category": "Admission & Transfer Process",
+      "pattern": "\\breferral pathway\\w*\\b|\\bcentralized (?:intake|waitlist)\\b|\\bconsult process\\b",
+      "reason": "Named referral, intake or consult process"
+    },
+    {
+      "rule_id": "survey",
+      "category": "Data, Measurement & Dashboards",
+      "pattern": "\\bsurveys?\\b|\\bquestionnaires?\\b|\\bfocus groups?\\b",
+      "reason": "Survey or structured feedback collection; not patient experience alone"
+    },
+    {
+      "rule_id": "measurement_verbs",
+      "category": "Data, Measurement & Dashboards",
+      "pattern": "\\b(?:measur(?:e|ing)|track(?:ing)?|monitor(?:ing)?)\\b.{0,65}\\b(?:rate|rates|data|time|times|results|performance|completion)\\b",
+      "reason": "Measurement action paired with an object"
+    },
+    {
+      "rule_id": "data_quality",
+      "category": "Data, Measurement & Dashboards",
+      "pattern": "\\bdata (?:accuracy|quality|entry|capture)\\b|\\bcollect\\w* data\\b|\\bcaptur\\w* data\\b",
+      "reason": "Explicit data capture or quality improvement"
+    },
+    {
+      "rule_id": "analysis_variants",
+      "category": "Data, Measurement & Dashboards",
+      "pattern": "\\banalyz\\w*\\b|\\banalytic\\w*\\b|\\bretrospective (?:review|study)\\b|\\breview.{0,40}\\b(?:incident reports?|census reports?|quarterly data|safety reports?)\\b",
+      "reason": "Analysis spelling variants and explicit report review"
+    },
+    {
+      "rule_id": "incident_reporting",
+      "category": "Data, Measurement & Dashboards",
+      "pattern": "\\bincident reporting\\b|\\breporting of workplace violence\\b",
+      "reason": "Recording/reporting incidents; not violence prevention generally"
+    },
+    {
+      "rule_id": "digital_systems",
+      "category": "Technology & Digital Tools",
+      "pattern": "\\b(?:Meditech|Expanse|Cerner|Teletracking|RHIS|EPR|eCTAS|Qualtrics)\\b|\\b(?:digitiz|digitis)\\w*\\b|\\bvirtual (?:tools|care)\\b|\\bvideo (?:interpretation|monitoring)\\b",
+      "reason": "Named digital system or explicit digital service"
+    },
+    {
+      "rule_id": "teaching_formats",
+      "category": "Training & Education",
+      "pattern": "\\b(?:webinars?|in.services?|e.learning|lunch and learn|learn and lunch)\\b|\\b(?:complete|completing|completion|participate).{0,70}\\b(?:modules?|courses?)\\b|\\b(?:skills drills|orientation)\\b",
+      "reason": "Explicit teaching format or course completion"
+    },
+    {
+      "rule_id": "collaboration",
+      "category": "Care Coordination & Communication",
+      "pattern": "\\bcollaborat\\w*\\b|\\bpartnership\\w*\\b|\\bcase management\\b|\\bpatient navigat\\w*\\b",
+      "reason": "Explicit collaboration or navigation action"
+    },
+    {
+      "rule_id": "communication_modes",
+      "category": "Care Coordination & Communication",
+      "pattern": "\\b(?:reminder emails?|information sharing|debrief\\w*|interpreter|interpretation services|translation services|language concordant care)\\b",
+      "reason": "Named communication or language support mechanism"
+    },
+    {
+      "rule_id": "offload_variants",
+      "category": "Ambulance / EMS Flow",
+      "pattern": "\\boff[ -]load\\w*\\b|\\bAOT\\b|\\bFit[ -]?2[ -]?Sit\\b",
+      "reason": "Offload spelling variants and specific EMS terms"
+    },
+    {
+      "rule_id": "streaming_variants",
+      "category": "Patient Streaming / Triage",
+      "pattern": "\\bsee and treat\\b|\\brapid assessment zone\\b|\\bsplit.flow\\b",
+      "reason": "Named streaming approach"
+    },
+    {
+      "rule_id": "standard_work",
+      "category": "Policy / Standardization",
+      "pattern": "\\bstandard(?:s|ized|ised)? (?:work|orders?|order sets?|care|pathways?|operating)\\b|\\b(?:clinical|care) pathways?\\b|\\b(?:order sets?|care bundles?|bundle adherence)\\b|\\bnursing standards\\b",
+      "reason": "Explicit standard work, pathway or bundle; not generic improvement"
+    },
+    {
+      "rule_id": "risk_assessment",
+      "category": "Safety & Risk Prevention",
+      "pattern": "\\b(?:risk assessments?|violence risk|environmental risk)\\b",
+      "reason": "Explicit risk assessment or risk identification"
+    },
+    {
+      "rule_id": "safety_mechanisms",
+      "category": "Safety & Risk Prevention",
+      "pattern": "\\b(?:hand hygiene|medication reconciliation|de.escalation|pressure injury prevention|pressure ulcer prevention)\\b",
+      "reason": "Named prevention or medication safety process"
+    },
+    {
+      "rule_id": "safety_response",
+      "category": "Safety & Risk Prevention",
+      "pattern": "\\bcode white (?:response|committee|skills)\\b|\\bpost.incident (?:medical|psychological|support)\\b|\\b(?:violence|falls?) prevention\\b",
+      "reason": "Explicit prevention, response or postincident support"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "pipeline_version": "2.0",
+  "config_sha256": {
+    "classification_overrides.csv": "f6e8b1e434480b48d7540c49c83eae700597ac616abf97d1ed41d71d0a5b651c",
+    "comparison_reviews.csv": "2753c4523e1bf49355ed6fd89c4adc37aa06a441f59a38de0085a2ed7c01d748",
+    "exclusions.csv": "805f167c48c1c6c7e7da23607c4b95680c709fd1db974915bce611211e1f3a6f",
+    "indicator_mappings.csv": "00d8ef664b071193427052fdf278fd90122e0047d861d6699d8d0c377b7fa78f",
+    "indicator_metadata.json": "29a2b5f7b09525096271f57da9c2b811cd1e4376144c9ba74cdb13d7cba23a44",
+    "intervention_taxonomy.json": "be66d382216ea05869d871c254c2cab86de30c131db244ed6a853fad6dc5b8d7",
+    "organization_mappings.csv": "60941ae8e069da4a77cfa19baacb6b7659ba3951649eedc139d4b5f962f8f264",
+    "population_mappings.csv": "06a4171154f39b7ff82d34a06bf0767f1ae3937fd0af58bfdd7c1967802a815a",
+    "sources.json": "8b66715afd1f1c95747514862f38aad99bdfab755ed0530612c033688241cc32",
+    "unit_mappings.csv": "d151bd7cd90dc5d868afaf8e7da9fc52d214c5a72edbd4dad2c9d4941dc887ef"
+  },
+  "code_sha256": {
+    "__init__.py": "9587ebc4fa3934b3eafb0f894db8d78140f4bdb7b685122961f89b09b02a6608",
+    "analytical_eligibility.py": "86a5009f16257233256b97dc06f0cbabd4a90844f000ce00ca7e2ccb1bed64ec",
+    "build_dataset.py": "bc2e9bc05ab7a39c78998d220ac1fc9588fdef2d8519085bf6eb14082c3bd2be",
+    "classify_interventions.py": "cd5cbe063015f1beed3da7bb8777dd4ea47a7020e7c62b428ffab0863a104390",
+    "dashboard_analytics.py": "a32778aced87457181ad406e4ce015a160960b390dadaadba420836496c3354d",
+    "normalize.py": "13a811df538b45f6d60bd1a6ab8e6f0c7532987b5005b0fca1957c36c4f5b6a4",
+    "outcomes.py": "cec8f349e9f777e2abacb1c95d4232ad99b71848cb7fec074df2516cfd2878d0",
+    "review_taxonomy.py": "bc24d45aae49be3acbad5a800bb6a44c42073a7116a8f17e2407262aa649e37e",
+    "source_data.py": "19b6a3f3d093a56b58d87ce0016b66715732ad1f7d109c598052f8ba35c83f4b",
+    "validate_data.py": "1d70367e22f1a2b97a5f8e668860924e3a928874d076430027b65019398f5f40"
+  },
+  "row_counts": {
+    "cycle_categories": 2644,
+    "performance_cycles": 1669,
+    "interventions": 3428,
+    "organizations": 134,
+    "indicators": 1241,
+    "current_workplans": 1739,
+    "current_plan_groups": 866,
+    "source_files": 5,
+    "source_records": 7582,
+    "source_observations": 17512,
+    "source_measurement_contexts": 5234,
+    "record_lineage": 7577,
+    "data_quality_issues": 3358,
+    "data_quality_summary": 221
+  }
+}
