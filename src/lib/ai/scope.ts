@@ -5,10 +5,11 @@ export const EFFECTIVENESS_RESPONSE = 'The project can show what hospitals repor
 export const RANKING_RESPONSE = 'This project does not rank hospitals. It is designed to help users inspect reported plans, implementation information, and reporting quality without creating performance league tables.';
 export const PROJECT_RESPONSE = 'This dashboard shows what Ontario hospitals say they are doing to improve emergency-department flow. It shows plans and reported implementation—not live wait times, hospital rankings, or proof that a change worked.';
 export const GREETING_RESPONSE = 'Hi — I can explain this dashboard, its hospital reporting data, filters, indicators, and methodology.';
+export const CLARIFICATION_RESPONSE = 'I can keep it simple. Ask me about the dashboard, an indicator, a hospital report, or a filter.';
 
 const medical = /\b(medication|medicine|diagnos(?:is|e)|do i have|should i go to (?:the )?(?:er|emergency)|which hospital should i go|chest pain|treatment|symptoms?)\b/i;
 const allowed = /\b(dashboard|project|hospital|qip|quality improvement|emergency|\bed\b|indicator|intervention|implementation|filter|methodology|reporting|dataset|workplan|progress report|ambulance|offload|wait|flow|category|chart|metric|unavailable|compare|this mean|what am i looking at|live data)\b/i;
-const followUp = /\b(explain|simple|simpler|plain|layman|layperson|tell me more|that mean|this mean)\b/i;
+const followUp = /^\s*(?:explain|give (?:it )?to me (?:in )?(?:simple|plain|layman(?:'s)?) terms|give me (?:a |an )?(?:metaphor|analogy|example)|what does this do|tell me more|why|how)\b/i;
 const greeting = /^\s*(?:hi|hello|hey|good (?:morning|afternoon|evening))[!. ]*$/i;
 const projectQuestion = /^\s*(?:what(?:'s| is) (?:this |the )?(?:project|app|dashboard)|what does (?:this |the )?(?:project|app|dashboard) mean)(?:\s+(?:in )?(?:simple|plain|layman(?:'s)?|everyday) terms)?\??\s*$/i;
 export function scopeResponse(message:string,hasHistory=false):string|undefined {
@@ -17,6 +18,7 @@ export function scopeResponse(message:string,hasHistory=false):string|undefined 
  if (/\b(which|what).{0,50}\b(best|most effective|works best|worked best|successful)\b|\beffectiveness\b/i.test(message)) return EFFECTIVENESS_RESPONSE;
  if (/\b(best|worst|rank|ranking|top hospital)\b/i.test(message)) return RANKING_RESPONSE;
  if (greeting.test(message)) return GREETING_RESPONSE;
+ if (/^\s*bruh[!. ]*$/i.test(message)) return CLARIFICATION_RESPONSE;
  if (projectQuestion.test(message)) return PROJECT_RESPONSE;
  if (hasHistory && followUp.test(message)) return undefined;
  if (!allowed.test(message)) return OUT_OF_SCOPE_RESPONSE;
