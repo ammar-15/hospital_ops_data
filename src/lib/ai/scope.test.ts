@@ -8,6 +8,6 @@ describe('assistant scope guard',()=>{
  it('uses the concise project explanation',()=>expect(scopeResponse('What is this project?')).toBe(PROJECT_RESPONSE));
  it('welcomes a greeting and recognizes the app wording',()=>{expect(scopeResponse('hello')).toBe(GREETING_RESPONSE);expect(scopeResponse('what is this app')).toBe(PROJECT_RESPONSE);});
  it('allows a plain-language follow-up only within a conversation',()=>{expect(scopeResponse('Explain in layman terms',true)).toBeUndefined();expect(scopeResponse('Explain in layman terms')).toBe(OUT_OF_SCOPE_RESPONSE);});
- it('allows a metaphor request within a conversation',()=>expect(scopeResponse('Give me a metaphor',true)).toBeUndefined());
+ it('allows natural follow-ups within a conversation',()=>{expect(scopeResponse('Give me a metaphor',true)).toBeUndefined();expect(scopeResponse('Can you tell me more',true)).toBeUndefined();});
  it('handles a frustrated clarification without rejecting the user',()=>expect(scopeResponse('bruh')).toBe(CLARIFICATION_RESPONSE));
 });

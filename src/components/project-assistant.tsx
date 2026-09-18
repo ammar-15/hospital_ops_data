@@ -8,11 +8,17 @@ import {useExplorer} from './explorer-provider';
 import {Button} from './ui/button';
 import {Sheet,SheetContent,SheetDescription,SheetHeader,SheetTitle} from './ui/sheet';
 type Chat={role:'user'|'assistant';content:string};
+const CHAT_STORAGE_KEY='qip-assistant-chat';
 const suggestions=['What is this project?','What is a Quality Improvement Plan?','What does implementation-status coverage mean?','What is an intervention category?','Why are outcome metrics unavailable?','What is ambulance offload time?','How do I use the filters?'];
+function savedMessages():Chat[]{
+ if(typeof window==='undefined')return [];
+ try{const parsed:unknown=JSON.parse(window.sessionStorage.getItem(CHAT_STORAGE_KEY)||'[]');return Array.isArray(parsed)&&parsed.every(item=>typeof item==='object'&&item!==null&&('role' in item)&&((item as Chat).role==='user'||(item as Chat).role==='assistant')&&('content' in item)&&typeof (item as Chat).content==='string')?parsed as Chat[]:[];}catch{return [];}
+}
 export function ProjectAssistant(){
- const [open,setOpen]=useState(false),[input,setInput]=useState(''),[messages,setMessages]=useState<Chat[]>([]),[loading,setLoading]=useState(false);const inputRef=useRef<HTMLInputElement>(null),messagesEndRef=useRef<HTMLDivElement>(null);const pathname=usePathname();const {filters}=useExplorer();
+ const [open,setOpen]=useState(false),[input,setInput]=useState(''),[messages,setMessages]=useState<Chat[]>(savedMessages),[loading,setLoading]=useState(false);const inputRef=useRef<HTMLInputElement>(null),messagesEndRef=useRef<HTMLDivElement>(null);const pathname=usePathname();const {filters}=useExplorer();
  useEffect(()=>{const show=()=>setOpen(true);window.addEventListener('open-project-assistant',show);return()=>window.removeEventListener('open-project-assistant',show);},[]);
  useEffect(()=>{if(open)setTimeout(()=>inputRef.current?.focus(),0);},[open]);
+ useEffect(()=>{if(messages.length)window.sessionStorage.setItem(CHAT_STORAGE_KEY,JSON.stringify(messages.slice(-16)));else window.sessionStorage.removeItem(CHAT_STORAGE_KEY);},[messages]);
  useEffect(()=>{messagesEndRef.current?.scrollIntoView({block:'end',behavior:'auto'});},[messages,loading]);
  useEffect(()=>{if(open&&!loading)inputRef.current?.focus();},[loading,open]);
  async function submit(question=input){const message=question.trim();if(!message||loading)return;setInput('');const next=[...messages,{role:'user' as const,content:message}];setMessages(next);setLoading(true);try{const active=Object.fromEntries(Object.entries(filters).filter(([,value])=>value));const response=await fetch('/api/assistant',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({message,history:messages.slice(-8),pageContext:{pathname,filters:active}})});const body=await response.json().catch(()=>null);setMessages([...next,{role:'assistant',content:typeof body?.answer==='string'?body.answer:"I couldn't answer that right now. The dashboard itself is still available."}]);}catch{setMessages([...next,{role:'assistant',content:"I couldn't answer that right now. The dashboard itself is still available."}]);}finally{setLoading(false);}}
