@@ -9,9 +9,9 @@ export const CLARIFICATION_RESPONSE = 'I can keep it simple. Ask me about the da
 
 const medical = /\b(medication|medicine|diagnos(?:is|e)|do i have|should i go to (?:the )?(?:er|emergency)|which hospital should i go|chest pain|treatment|symptoms?)\b/i;
 const allowed = /\b(dashboard|project|hospital|qip|quality improvement|emergency|\bed\b|indicator|intervention|implementation|filter|methodology|reporting|dataset|workplan|progress report|ambulance|offload|wait|flow|category|chart|metric|unavailable|compare|this mean|what am i looking at|live data)\b/i;
-const followUp = /^\s*(?:explain|give (?:it )?to me (?:in )?(?:simple|plain|layman(?:'s)?) terms|give me (?:a |an )?(?:metaphor|analogy|example)|what does this do|(?:can you )?tell me more|why|how)\b/i;
+const followUp = /^\s*(?:explain|give (?:it )?to me (?:in )?(?:simple|plain|layman(?:'s)?) terms|give me (?:a |an )?(?:metaphor|analogy|example)|what(?:'s| is|) this do|(?:can you )?tell me more|(?:the )?(?:recent|latest|current) one|that one|this one|why|how)\b/i;
 const greeting = /^\s*(?:hi|hello|hey|good (?:morning|afternoon|evening))[!. ]*$/i;
-const projectQuestion = /^\s*(?:what(?:'s| is) (?:this |the )?(?:project|app|dashboard)|what does (?:this |the )?(?:project|app|dashboard) mean)(?:\s+(?:in )?(?:simple|plain|layman(?:'s)?|everyday) terms)?\??\s*$/i;
+const projectQuestion = /^\s*(?:what(?:'s| is) (?:this |the )?(?:project|app|dashboard)|what does (?:this |the )?(?:project|app|dashboard) mean|what(?:'s| is|) this do)(?:\s+(?:in )?(?:simple|plain|layman(?:'s)?|everyday) terms)?\??\s*$/i;
 export function scopeResponse(message:string,hasHistory=false):string|undefined {
  if (medical.test(message)) return MEDICAL_RESPONSE;
  if (/\b(live|real[ -]?time|today(?:'s)?|current (?:er|emergency|wait))/i.test(message)) return LIVE_DATA_RESPONSE;

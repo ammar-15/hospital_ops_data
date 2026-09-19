@@ -8,10 +8,20 @@ import {SYSTEM_PROMPT} from '@/lib/ai/system-prompt';
 export const runtime='nodejs';
 const requestSchema=z.object({
  message:z.string().trim().min(1).max(2000),
- history:z.array(z.object({role:z.enum(['user','assistant']),content:z.string().trim().min(1).max(2000)})).max(8).default([]),
+ history:z.array(z.object({role:z.enum(['user','assistant']),content:z.string().trim().min(1).max(2000)})).max(16).default([]),
  pageContext:z.object({pathname:z.string().max(160),filters:z.record(z.string(),z.string().max(200)).optional()}).optional(),
 });
 const buckets=new Map<string,{count:number;reset:number}>();
+function filterAction(history:AssistantMessage[],message:string){
+ const conversation=[...history.map(item=>item.content),message].join(' ').toLowerCase();
+ const uhn=/\b(?:toronto general|toronto western|university health network|\buhn\b)\b/.test(conversation);
+ const offload=/ambulance offload|\boffload time\b|\baot\b/.test(conversation);
+ if(uhn&&offload){
+  const recent=/\b(?:recent|latest|current|2026\/?27)\b/.test(conversation);
+  return {answer:recent?'I filtered the dashboard to University Health Network’s current 2026/27 ambulance-offload plan.':'I filtered the dashboard to University Health Network’s ambulance-offload records.',filters:{hospital:'University Health Network',indicator:'Ambulance offload (90th percentile)',...(recent?{year:'2026/27',scope:'Current 2026/27'}:{})}};
+ }
+ return undefined;
+}
 function rateLimited(request:Request){
  const key=request.headers.get('x-forwarded-for')?.split(',')[0]?.trim()||'anonymous'; const now=Date.now(); const bucket=buckets.get(key);
  if (!bucket||bucket.reset<now){buckets.set(key,{count:1,reset:now+60_000});return false;}
@@ -24,6 +34,8 @@ export async function POST(request:Request){
  const {message,history,pageContext}=parsed.data;
  const guarded=scopeResponse(message,history.length>0);
  if(guarded) return Response.json({answer:guarded});
+ const action=filterAction(history,message);
+ if(action) return Response.json(action);
  const provider=nvidiaProvider();
  if(!provider) return Response.json({answer:'Project assistant is currently unavailable.'},{status:503});
  const context=pageContext?`Current page context: ${JSON.stringify(pageContext)}`:'Current page context: not supplied.';
